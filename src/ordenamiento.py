@@ -1,6 +1,12 @@
 def evaluar(numero1, numero2, numero3, numero4):
-    # TODO: Coloca aquí el código del ejercicio 5: Ordenamiento
-    return "";
+    # Crea una lista con los cuatro números
+    numeros = [numero1, numero2, numero3, numero4]
+    
+    # Ordena la lista de menor a mayor
+    numeros.sort()
+    
+    # Devuelve la lista de números ordenados
+    return numeros
 
 if __name__ == '__main__':
     print("Número 1:", end="")
