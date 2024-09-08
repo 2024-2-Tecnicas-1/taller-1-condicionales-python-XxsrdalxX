@@ -1,13 +1,12 @@
 def evaluar(numero1, numero2, numero3, numero4):
-    # Crea una lista con los cuatro números
+   # Crea una lista con los cuatro números
     numeros = [numero1, numero2, numero3, numero4]
     
     # Ordena la lista de menor a mayor
     numeros.sort()
     
-    # Devuelve la lista de números ordenados
-    return numeros
-
+    # Devuelve los números ordenados en formato de cadena, separados por espacios
+    return " ".join(map(str, numeros))
 if __name__ == '__main__':
     print("Número 1:", end="")
     numero1 = int(input())
