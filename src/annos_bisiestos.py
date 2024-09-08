@@ -18,4 +18,3 @@ if __name__ == '__main__':
 
     respuesta = evaluar(anno)
     print(respuesta)
-A
